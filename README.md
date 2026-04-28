@@ -1,4 +1,4 @@
-# Soundevents
+# soundevents.nvim
 A simple plugin that allows you to configure sounds that play whenever a
 certain event occurs via autocommands.
 
