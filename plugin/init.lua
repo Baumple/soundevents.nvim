@@ -4,7 +4,7 @@ vim.api.nvim_create_user_command(
         require("soundevents").start()
     end,
     {
-        desc = "Prints hello",
+        desc = "Start soundevents.nvim and create autocommands",
         force = false,
     }
 )
@@ -15,7 +15,7 @@ vim.api.nvim_create_user_command(
         require("soundevents").stop()
     end,
     {
-        desc = "Prints hello",
+        desc = "Stop soundevents.nvim and clear autocommands",
         force = false,
     }
 )

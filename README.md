@@ -20,5 +20,8 @@ return {
 - `SEStart`: Start soundevent.nvim i.e. create autocommands
 - `SEStop`: Stop soundevent.nvim i.e. clear autocommands
 
+## Requirements
+Requires `ffmpeg` or more specifially `ffplay` in order to work.
+
 ## Disclaimer
 I don't know who or why anyone would use this.
